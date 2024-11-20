@@ -1,5 +1,4 @@
 #import <Cocoa/Cocoa.h>
 
-@interface Tire : NSObject
+@interface Engine : NSObject
 @end
-

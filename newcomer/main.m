@@ -1,20 +1,23 @@
 #import <Foundation/Foundation.h>
 
-@interface Tire: NSObject
-@end
-@implementation Tire
-- (NSString*) description {
-    return @"I am a tire, I last a while.";
-}
-@end
+#import "Tire.h"
+#import "Engine.h"
 
-@interface Engine : NSObject
-@end
-@implementation Engine
-- (NSString *) description {
-    return @"I am an engine, Vroom!";
-}
-@end
+//@interface Tire: NSObject
+//@end
+//@implementation Tire
+//- (NSString*) description {
+//    return @"I am a tire, I last a while.";
+//}
+//@end
+//
+//@interface Engine : NSObject
+//@end
+//@implementation Engine
+//- (NSString *) description {
+//    return @"I am an engine, Vroom!";
+//}
+//@end
 
 @interface Car: NSObject {
     Engine *engine;
